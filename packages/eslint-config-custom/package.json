@@ -1,0 +1,28 @@
+{
+    "name": "eslint-config-custom",
+    "version": "0.1.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+        "lint": "prettier --check .",
+        "format": "prettier --write ."
+    },
+    "dependencies": {
+        "@typescript-eslint/eslint-plugin": "^7.1.0",
+        "@typescript-eslint/parser": "^7.1.0",
+        "eslint": "^8.57.0",
+        "eslint-config-prettier": "^9.1.0",
+        "eslint-config-turbo": "^1.12.4"
+    },
+    "peerDependencies": {
+        "eslint-plugin-prettier": "latest",
+        "eslint-plugin-turbo": "latest",
+        "prettier": "latest"
+    },
+    "devDependencies": {
+        "prettier": "^3.2.5"
+    },
+    "publishConfig": {
+        "access": "public"
+    }
+}
